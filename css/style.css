@@ -1,0 +1,38 @@
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+.header-top img{
+    height: 30px;
+    margin: 20px 20px 20px 0;
+}
+.fa-bars{
+    font-size: 40px;
+    padding: 10px 20px;
+    color: grey;
+}
+.header-bottom img{
+    height: 80px;
+}
+.header-bottom{
+    display: flex;
+}
+.menu_nav{
+    border: solid lightgray 1px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.fa-chevron-down{
+    margin-left: 10px;
+}
+.main-nav ul li{
+    margin-right: 30px;
+}
