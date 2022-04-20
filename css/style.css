@@ -1,3 +1,10 @@
+.bck-color{
+    background-color: white;
+}
+.bck-color2{
+    background-color: blue;
+}
+
 .header-top{
     display: flex;
     justify-content: flex-end;
@@ -35,4 +42,51 @@
 }
 .main-nav ul li{
     margin-right: 30px;
+}
+
+.hero{
+    background-color: lightpink;
+}
+.hero-content{
+    margin: 400px 0 40px 0px;
+}
+.img-row{
+    margin: 100px auto;
+}
+.img-row img{
+    height: 110px;
+    border-radius: 15px;
+}
+.ps5_img, .sale_img{
+    height: 500px;
+}
+.ps4_img{
+    height: 200px;
+}
+.items_img{
+    height: 120px;
+}
+.items_img2{
+    height: 160px;
+}
+.takes_two_section{
+    background-color: aquamarine;
+}
+.new_releases{
+    background-color: lightblue;
+}
+.radius{
+    border-radius: 20px;
+}
+.ps_plus{
+    background-color: lightsalmon;
+}
+.ps_now{
+    background-color: bisque;
+}
+.ps_plus img, .ps_now img, .plays_img, .sony_img{
+    height: 50px;
+}
+.social_media img{
+    height: 230px;
 }
