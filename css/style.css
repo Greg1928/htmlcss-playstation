@@ -1,6 +1,9 @@
 h2{
     font-size: 50px;
 }
+.center{
+    text-align: center;
+}
 
 .no_border{
     border: none;
@@ -13,6 +16,7 @@ h2{
 }
 .bck-color3{
     background-color: #cd3d0f;
+    border: 0;
 }
 .bck-color4{
     background-color: #363636;
@@ -20,12 +24,20 @@ h2{
 .bck-color5{
     background-color: #2d64e6;
 }
-
+.bck-color6{
+    background-color: #1f1f1f;
+}
+.bck-color7{
+    background-color: #bebcbb;
+}
 .color1{
     color: white;
 }
 .color2{
     color: #0072ce;
+}
+.color3{
+    color: grey;
 }
 
 .header-top{
@@ -72,6 +84,7 @@ header button{
 
 .hero{
     background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
 }
 .hero img{
     height: 40px;
@@ -81,10 +94,10 @@ header button{
     margin: 400px 0 40px 0px;
 }
 .img-row{
-    margin: 100px auto;
+    margin: 50px auto;
 }
 .img-row img{
-    height: 110px;
+    width: 100%;
     border-radius: 20px;
     padding: 4px;
 }
@@ -102,39 +115,79 @@ header button{
 .no-limits p{
     color: #797979;
 }
-.ps5_img{
-    height: 500px;
-}
-.sale_img{
-    height: 220px;
-}
-.ps4_img{
-    height: 150px;
-}
-.items_img{
-    height: 120px;
-}
-.items_img2{
-    height: 160px;
+.ps5_img, .sale_img, .ps4_img, .items_img, .items_img2{
+    width: 100%;
 }
 .takes_two_section{
-    background-color: aquamarine;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    margin-top: 50px;
+    
 }
-.new_releases{
-    background-color: lightblue;
+.takes_two_section img{
+    height: 150px;
+    margin-bottom: 50px;
+}
+.takes-two-content{
+    margin: 80px 0 40px 0px;
+}
+.new_releases h4{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.new_releases p{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.new_releases span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row:nth-child(2){
+    margin-top: 20px;
 }
 .radius{
-    border-radius: 20px;
+    border-radius: 30px;
+}
+.play_4 button{
+    max-width: 130px;
+}
+.play_4 p{
+    font-size: 22px;
+}
+.play_4 h3{
+    font-size: 40px;
+}
+.play_4 h2{
+    margin-top: 60px;
 }
 .ps_plus{
-    background-color: lightsalmon;
+    margin: 70px 0;
 }
 .ps_now{
     background-color: bisque;
 }
-.ps_plus img, .ps_now img, .plays_img, .sony_img{
+.ps_now img, .plays_img, .sony_img{
     height: 50px;
+}
+#plus_img{
+    height: 400px;
+    padding: 0;
+}
+.ps_plus p{
+    font-size: 25px;
+}
+.ps_plus img{
+    max-width: 400px;
+    padding: 20px 0;
+}
+.ps_plus button{
+    max-width: 400px;
+    margin-bottom: 20px;
 }
 .social_media img{
     height: 150px;
 }
+
