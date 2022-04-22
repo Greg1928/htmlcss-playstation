@@ -4,14 +4,35 @@ h2{
 .center{
     text-align: center;
 }
+.margin_right{
+    margin-right: 5px;
+}
 .container_custom{
     max-width: 700px;
     margin: auto;
     margin-top: 60px;
 }
-
+#btn-effect-header:hover{
+    box-shadow: inset 0px 0px 0px 2px white;
+    border-color: #363636;
+    background-color: #363636;
+}
+.btn-header{
+    border: solid #363636 2px;
+}
+#btn-effect-hero:hover{
+    box-shadow: inset 0px 0px 0px 2px black;
+    border-color: #cd3d0f;
+    background-color: #cd3d0f;
+}
+.btn-hero{
+    border: solid #cd3d0f 2px;
+}
 .no_border{
     border: none;
+}
+.btn-primary{
+    border-color: transparent;
 }
 .bck-color{
     background-color: white;
@@ -21,7 +42,7 @@ h2{
 }
 .bck-color3{
     background-color: #cd3d0f;
-    border: 0;
+    /* border: 0; */
 }
 .bck-color4{
     background-color: #363636;
@@ -63,7 +84,7 @@ h2{
     background-color: black;
 }
 .header-top img{
-    height: 30px;
+    height: 20px;
     margin: 20px 20px 20px 0;
 }
 .fa-bars{
@@ -78,11 +99,11 @@ h2{
     display: flex;
 }
 
-header button{
-    margin: 0 20px;
-}
 .menu_nav{
     border: solid lightgray 1px;
+}
+.margin_left{
+    margin-left: 20px;
 }
 .main-nav ul{
     list-style: none;
@@ -92,6 +113,7 @@ header button{
 .main-nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 .fa-chevron-down{
     margin-left: 10px;
@@ -133,6 +155,12 @@ header button{
 }
 .no-limits p{
     color: #797979;
+}
+.bar{
+    margin-top: 15px;
+    width: 100%;
+    height: 3px;
+    background-color: #4095da;;
 }
 .ps5_img, .sale_img, .ps4_img, .items_img, .items_img2{
     width: 100%;
@@ -186,9 +214,6 @@ header button{
 .ps_plus{
     margin: 70px 0;
 }
-/* .ps_now img{
-    height: 100%;
-} */
 #plus_img, #now_img{
     width: 100%;
     height: 100%;
@@ -230,6 +255,7 @@ footer span{
 footer p{
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 .plays_img{
     padding: 50px 0 30px 20px;
