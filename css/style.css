@@ -169,14 +169,20 @@ main{
 }
 .img-row{
     margin: 50px auto;
+    position: relative;
 }
 .img-row img{
     width: 100%;
     border-radius: 20px;
     padding: 4px;
 }
+.up:hover{
+    width: 15%;
+    position: absolute;
+    bottom: 15px;
+}
 .border_select{
-    border: solid #0072ce 2px;
+    box-shadow: inset 0px 0px 0px 2px #0072ce;
     border-radius: 15px;
 }
 .no-limits{
