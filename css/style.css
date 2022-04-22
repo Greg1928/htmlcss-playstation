@@ -100,7 +100,12 @@ h2{
 .color5{
     color: #2d64e6;
 }
-
+header{
+    position: fixed;
+    z-index: 8;
+    width: 100%;
+    background-color: white;
+}
 .header-top{
     display: flex;
     justify-content: flex-end;
@@ -135,8 +140,11 @@ h2{
 }
 .main-nav ul li a{
     text-decoration: none;
-    color: black;
+    color: grey;
     font-size: 20px;
+}
+.main-nav ul li a:hover{
+    color: lightgray;
 }
 .fa-chevron-down{
     margin-left: 10px;
@@ -144,7 +152,9 @@ h2{
 .main-nav ul li{
     margin-right: 30px;
 }
-
+main{
+    padding-top: 140px;
+}
 .hero{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
