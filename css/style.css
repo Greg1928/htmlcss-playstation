@@ -28,6 +28,29 @@ h2{
 .btn-hero{
     border: solid #cd3d0f 2px;
 }
+#btn-effect-ps5:hover{
+    box-shadow: inset 0px 0px 0px 2px white;
+    border-color: #2d64e6;
+    background-color: #2d64e6;
+}
+.btn-ps5{
+    border: solid #2d64e6 2px;
+}
+#btn-effect-now:hover{
+    box-shadow: inset 0px 0px 0px 2px #161c3b;
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+.btn-now{
+    border: solid white 2px;
+}
+#btn-effect-plus:hover{
+    box-shadow: inset 0px 0px 0px 2px #e3e4e6;
+    border-color: #e3e4e6;
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
 .no_border{
     border: none;
 }
